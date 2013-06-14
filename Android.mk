@@ -27,6 +27,7 @@ ffmpeg: x264 $(PRODUCT_OUT)/obj/STATIC_LIBRARIES/libvpx_intermediates/libvpx.a
 		--libdir=/system/lib \
 		--enable-shared \
 		--disable-static \
+		--disable-pthreads \
 		--enable-thumb \
 		--enable-gpl \
 		--disable-avdevice \
